@@ -79,3 +79,13 @@ hr {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 600px) {
+  body { background-image: url(./assets/images/background-pattern-mobile.svg);}
+
+  .container {
+    max-width: 300px;
+    width: 100%;
+  }
+
+}
